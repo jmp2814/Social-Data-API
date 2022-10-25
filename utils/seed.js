@@ -1,7 +1,7 @@
 const connection = require("../config/connection");
 const { User } = require("../models");
 
-const { getRandomUser, userDate, userData } = require("./data");
+const { getRandomUser, userData } = require("./data");
 
 connection.once("open", async () => {
   await User.deleteMany({});
@@ -9,7 +9,7 @@ connection.once("open", async () => {
   const users = [];
 
   for (let i = 0; i < 5; i++) {
-    users.push(userData);
+    users.push(userData[i]);
   }
 
   console.log(users);
