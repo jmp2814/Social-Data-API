@@ -34,16 +34,16 @@ module.exports = {
           { new: true }
         );
       })
-      .then(
-        ((user) =>
-          !user
-            ? res.status(404).json({
-                message: "Thought created, but cannot find user with that ID",
-              })
-            : res.json("Created thought!")).catch((err) =>
-          res.status(500).json(err)
-        )
-      );
+      .then((user) =>
+        !user
+          ? res.status(404).json({
+              message: "Thought created, but cannot find user with that ID",
+            })
+          : res.json("Created thought!")
+      )
+      .catch((err) => {
+        res.status(500).json(err);
+      });
   },
 
   updateThought(req, res) {
@@ -57,7 +57,9 @@ module.exports = {
           ? res.status(404).json({ message: "No thought with that ID" })
           : res.json(thought)
       )
-      .catch((err) => res.status(500).json(err));
+      .catch((err) => {
+        res.status(500).json(err);
+      });
   },
 
   removeThought(req, res) {
