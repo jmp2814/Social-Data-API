@@ -17,3 +17,8 @@ SO THAT my website can handle large amounts of unstructured data
 - THEN I am able to successfully create, update, and delete users and thoughts in my database
 - WHEN I test API POST and DELETE routes in Insomnia
 - THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+
+## Screenshots
+![thoughts](https://user-images.githubusercontent.com/103081923/200182599-9ecd23e2-a80a-40dd-9064-d0b28d7438b3.JPG)
+![users](https://user-images.githubusercontent.com/103081923/200182600-782a3712-75a1-417f-b767-5fad372b7637.JPG)
+
