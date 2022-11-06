@@ -22,3 +22,6 @@ SO THAT my website can handle large amounts of unstructured data
 ![thoughts](https://user-images.githubusercontent.com/103081923/200182599-9ecd23e2-a80a-40dd-9064-d0b28d7438b3.JPG)
 ![users](https://user-images.githubusercontent.com/103081923/200182600-782a3712-75a1-417f-b767-5fad372b7637.JPG)
 
+## Video walkthrough
+https://drive.google.com/file/d/1yTClyuWDNAB4u0L8TT5y8vs205eV9Hgp/view
+
